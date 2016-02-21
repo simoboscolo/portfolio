@@ -1,0 +1,39 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	width: 70%;
+	position: absolute;
+	margin: 0 15%;
+}
+
+nav li {
+	display: inline-block;
+	float: right;
+	margin: 15px 0 15px 50px;
+	font-size: 18px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #58595b;
+	text-transform: uppercase;
+	font-family: Helvetica, Sans-serif;
+}
+
+nav a:hover.cyan {
+	color: #00aeef;
+}
+
+nav a:hover.magenta {
+	color: #ec008c;
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 70px;
+}
