@@ -2,13 +2,13 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	font-family: 'Roboto Condensed', sans-serif;
-	max-width: 1200px;
+	max-width: 1400px;
 }
 
 /* navbar */
 
 nav {
-	max-width: 1200px;
+	max-width: 1400px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -36,11 +36,11 @@ nav a {
 	text-transform: uppercase;
 }
 
-nav a:hover.cyan {
+.cyan:hover {
 	color: #00aeef;
 }
 
-nav a:hover.magenta {
+.magenta:hover {
 	color: #ec008c;
 }
 
@@ -79,7 +79,7 @@ nav a:hover.magenta {
 	margin: 0;
 }
 
-/*styling gallery home*/
+/*styling galleries*/
 
 .gallery {
 	width: 80%;
@@ -91,6 +91,10 @@ nav a:hover.magenta {
 	padding: 0;
 	display: inline-block;
 	float: left;
+}
+
+.massive {
+	width: 100%;
 }
 
 .huge {
@@ -107,6 +111,22 @@ nav a:hover.magenta {
 
 .small {
 	width: 25%;
+}
+
+.floats div {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	float: left;
+	background: #ec008c;
+	color: white;
+	height: 400px;
+}
+
+.floats p {
+	padding: 60px 40px 0px 40px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 27px;
 }
 
 /* footer */
@@ -129,7 +149,7 @@ footer div {
 	padding-top: 15px;
 }
 
-.divfooter {
+.div-footer {
 	margin-left: 10%;
 }
 
@@ -142,4 +162,19 @@ footer div {
 
 .icon:hover {
 	opacity: 0.3;
+}
+
+/* About page */
+
+.about-column {
+	float: left;
+	width: 46%;
+	margin: 0 0 60px 4%;
+}
+
+.about-column p {
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	text-align: justify;
 }
