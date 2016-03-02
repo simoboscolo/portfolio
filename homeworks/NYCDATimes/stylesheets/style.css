@@ -1,0 +1,176 @@
+body {
+	font-family: Helvetica;
+	min-width: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: white;
+	border-bottom: 1px solid #e0e0e0;
+	font-size: 14px;
+	display: inline-block;
+	opacity: 0.95;
+}
+
+.logo {
+	margin: 0px;
+	position: absolute;
+	left: 20%;
+	display: inline-block;
+}
+
+nav ul {
+	margin-left: 20%;
+}
+
+nav li{
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 60px
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: red;
+}
+
+footer { 
+	float: left;
+	clear: left;
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+	background: #e0e0e0;
+	color: grey;
+	font-size: 15px;
+}
+
+.footer-pos {
+	margin-left: 20%;
+}
+
+.footer {
+	margin-top: 30px;
+	float: left;
+	width: 430px;
+}
+
+.footer a:hover {
+	color: red;
+}
+
+.footer p {
+	margin: 0px;
+}
+
+.button {
+	width: 140px;
+	padding: 10px;
+	border: 1px solid black;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;	
+	color: black;
+}
+
+.content {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 80px; 
+}
+
+.left-bar {
+	width: 10%;
+	height: 100%;
+	position: fixed;
+	margin-left: 5%;
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	font-family: Georgia;
+}
+
+hr {
+	margin-bottom: 25px;
+	border-width: 0px;
+	background-color: #e0e0e0;
+	height: 1px;
+}
+
+p {
+	line-height: 20px;
+}
+
+.index-div {
+	width: 40%;
+	padding-right: 10%;
+	float: left;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.article {
+	text-decoration: none;
+	color: black;
+}
+
+.article h3:hover {
+	color: red;
+}
+
+.social-bar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.back {
+	position: absolute;
+	bottom: 25%;
+	right: 0px;
+}
+
+.icon {
+	width: 40px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.icon:hover {
+	opacity: 0.5;
+}
+
+.computer {
+	width: 40%;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.two-columns {
+	width: 45%;
+	margin: 0 2.5%;
+	float: left;
+}
+
+.tree-columns {
+	width: 30%;
+	margin: 0 1.5%;
+	float: left;
+}
