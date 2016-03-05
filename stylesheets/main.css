@@ -233,3 +233,82 @@ h1.cheers {
 	margin: 30px 0 60px;
 	float: right;
 }
+
+@media all and (max-width: 480px) {
+
+	.intro {
+		text-align: left;
+		width: 80%;
+		margin: 100px 10% 40px 10%;
+	}
+
+	.intro h1 {
+		font-family: 'Slabo 27px', serif;
+		font-size: 55px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	.intro h2 {
+		margin-bottom: 40px;
+	}
+
+	.intro p {
+		font-size: 20px;
+		line-height: 30px;
+		margin: 0;
+	}
+
+	.gallery {
+	width: 100%;
+	margin-left: 0;
+	}
+
+	.gallery img {
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		float: left;
+	}
+
+	.floats img {
+		float: none;
+		width: 100%;
+	}
+
+	.massive .huge .big .medium .small {
+		width: 100%;
+	}
+
+	/* footer */
+
+	footer {
+		margin: 0 auto;
+		float: left;
+		clear: left;
+		height: 70px;
+		color: #58595b;
+		width: 100%;
+	}
+
+	footer div {
+		font-family: 'Slabo 27px', serif;
+		font-size: 12px;
+		display: inline-block;
+		width: 40%;
+		float: left;
+		padding-top: 15px;
+	}
+
+	.icon {
+		padding: 7px 0 0 15px;
+		width: 18px;
+		float: right;
+		display: inline-block;
+	}
+
+	.icon:hover {
+		opacity: 0.3;
+	}
+
+}
